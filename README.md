@@ -5,8 +5,7 @@
 ```bash
 urlimagediff -o output.png https://github.com/loadoff/go-url-image-diff/blob/develop/README.md https://github.com/loadoff/go-url-image-diff/blob/master/README.md
 ```
-
-![output.png](https://user-images.githubusercontent.com/22957487/77884366-de1c8900-729f-11ea-9a63-8002ba1af00f.png)
+![output](https://user-images.githubusercontent.com/22957487/77889060-35265c00-72a8-11ea-8601-198d6c9cd3cd.png)
 
 # Installation
 
