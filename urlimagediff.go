@@ -43,7 +43,6 @@ func Diff(url1, url2 string) (image.Image, bool, error) {
 	if err := page.Navigate(url2); err != nil {
 		return nil, false, err
 	}
-	page.RunScript(`return document.body.scrollWidth`, nil, &width)
 	page.RunScript(`return document.body.scrollHeight`, nil, &height)
 	page.Size(width, height)
 	page.Screenshot(filepath.Join(dir, "2.png"))
