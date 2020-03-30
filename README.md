@@ -1,6 +1,12 @@
 # go-url-image-diff
 二つのURLのスクリーンショットを撮って比較し、差異がある場合は表示する
 
+#Demo
+```bash
+urlimagediff -o output.png https://github.com/loadoff/go-url-image-diff/blob/develop/README.md https://github.com/loadoff/go-url-image-diff/blob/master/README.md
+```
+![output](https://user-images.githubusercontent.com/22957487/77889060-35265c00-72a8-11ea-8601-198d6c9cd3cd.png)
+
 # Installation
 
 Macの場合
